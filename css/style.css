@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(6, 110, 23, 0.7),
+      rgba(209, 21, 14, 0.5)
+    ),
+    url("../images/Bangladesh-Map.png");
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.1);  
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+}
+
+nav .logo {
+  width: 25%;
+  text-align: center;
+  /* background: linear-gradient(to right, #107c0e, #d03625);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; */
+}
+
+.logo h2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .menu {
+  width: 40%;
+}
+
+nav .menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .menu li {
+  width: 25%;
+}
+
+nav .menu a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* nav .menu ul:first-child {
+    color: rgba(6, 110, 23, 0.7);
+} */
+
+main {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+}
+
+section {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+    text-transform: capitalize;
+}
+
+section a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0px 5px;
+    padding: 8px 15px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
