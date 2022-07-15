@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.static-text {
+    font-size: 60px;
+    font-weight: 600;
+    color: #008000;
+    margin-right: 20px;
+}
+
+.dynamic-text li {
+    list-style: none;
+    color: #008000;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.dynamic-text li span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-right: 2px solid #008000;
+}

@@ -24,20 +24,6 @@ p {
   margin-bottom: 7%;
 }
 
-header {
-  background-image: linear-gradient(
-      rgba(6, 110, 23, 0.7),
-      rgba(209, 21, 14, 0.5)
-    ),
-    url("../images/Bangladesh-Map.png");
-  width: 100%;
-  height: 100vh;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: fixed;
-}
-
 nav {
   background: rgba(0, 0, 0, 0.1);
   padding: 15px 0px;
